@@ -2,6 +2,7 @@ package com.jhonssantiago.exemplolistview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -45,6 +46,16 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         String item = (String) adapterView.getItemAtPosition(i);
-        Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
+        abrirTela(item);
+
+    }
+
+
+    private void abrirTela(String item){
+        if(item.equals("C")){
+            Intent it = new Intent(getApplicationContext(), SegundaActivity.class);
+            startActivity(it);
+        }
     }
 }

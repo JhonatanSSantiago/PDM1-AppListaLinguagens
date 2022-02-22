@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ExemploListView</string>
     <string name="textViewRotulo">Listas de Linguagens de Programação</string>
+    <string name="radioBtn01">Guido van Rossum</string>
+    <string name="radioBtn02">Dennis Ritchie</string>
+    <string name="radioBtn03">Niklaus Wirth</string>
 </resources>
