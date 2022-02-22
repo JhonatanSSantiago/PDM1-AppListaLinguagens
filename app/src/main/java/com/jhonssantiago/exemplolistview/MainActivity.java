@@ -75,5 +75,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent it = new Intent(getApplicationContext(), SextaActivity.class);
             startActivity(it);
         }
+
+        if(item.equals("Python")){
+            Intent it = new Intent(getApplicationContext(), SetimaActivity.class);
+            startActivity(it);
+        }
     }
 }
