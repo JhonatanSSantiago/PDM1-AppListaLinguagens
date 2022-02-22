@@ -48,9 +48,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         String item = (String) adapterView.getItemAtPosition(i);
         //Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
         abrirTela(item);
-
     }
-
 
     private void abrirTela(String item){
         if(item.equals("C")){
@@ -70,6 +68,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         if(item.equals("JavaScript")){
             Intent it = new Intent(getApplicationContext(), QuintaActivity.class);
+            startActivity(it);
+        }
+
+        if(item.equals("PHP")){
+            Intent it = new Intent(getApplicationContext(), SextaActivity.class);
             startActivity(it);
         }
     }
