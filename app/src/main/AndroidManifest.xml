@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExemploListView">
         <activity
+            android:name=".QuintaActivity"
+            android:exported="false" />
+        <activity
             android:name=".QuartaActivity"
             android:exported="false" />
         <activity

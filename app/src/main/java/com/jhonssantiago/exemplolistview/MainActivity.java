@@ -67,5 +67,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent it = new Intent(getApplicationContext(), QuartaActivity.class);
             startActivity(it);
         }
+
+        if(item.equals("JavaScript")){
+            Intent it = new Intent(getApplicationContext(), QuintaActivity.class);
+            startActivity(it);
+        }
     }
 }
