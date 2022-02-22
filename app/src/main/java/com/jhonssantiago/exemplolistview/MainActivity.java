@@ -62,5 +62,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent it = new Intent(getApplicationContext(), TerceiraActivity.class);
             startActivity(it);
         }
+
+        if(item.equals("Kotlin")){
+            Intent it = new Intent(getApplicationContext(), QuartaActivity.class);
+            startActivity(it);
+        }
     }
 }
