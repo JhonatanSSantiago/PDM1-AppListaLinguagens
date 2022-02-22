@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">ExemploListView</string>
     <string name="textViewRotulo">Listas de Linguagens de Programação</string>
-    <string name="radioBtn01">Guido van Rossum</string>
-    <string name="radioBtn02">Dennis Ritchie</string>
-    <string name="radioBtn03">Niklaus Wirth</string>
+    <string name="radioBtn01">Guido van Rossum</string> <!--Python-->
+    <string name="radioBtn02">Dennis Ritchie</string> <!--C-->
+    <string name="radioBtn03">Brendan Eich</string> <!--JavaScritp-->
+    <string name="radioBtn04">James Gosling</string> <!--Java-->
+    <string name="radioBtn05">JetBrains</string> <!--Kotlin-->
+    <string name="radioBtn06">Rasmus Lerdorf</string> <!--PHP-->
 </resources>

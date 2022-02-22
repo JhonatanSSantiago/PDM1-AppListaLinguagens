@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         lista_dados.add("C");
         lista_dados.add("Java");
         lista_dados.add("Kotlin");
-        lista_dados.add("LUA");
+        lista_dados.add("JavaScript");
         lista_dados.add("Python");
         lista_dados.add("PHP");
     }
@@ -55,6 +55,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private void abrirTela(String item){
         if(item.equals("C")){
             Intent it = new Intent(getApplicationContext(), SegundaActivity.class);
+            startActivity(it);
+        }
+
+        if(item.equals("Java")){
+            Intent it = new Intent(getApplicationContext(), TerceiraActivity.class);
             startActivity(it);
         }
     }
